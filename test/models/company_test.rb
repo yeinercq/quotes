@@ -1,16 +1,15 @@
 # == Schema Information
 #
-# Table name: quotes
+# Table name: companies
 #
 #  id         :bigint           not null, primary key
 #  name       :string           not null
 #  created_at :datetime         not null
 #  updated_at :datetime         not null
-#  company_id :bigint           not null
 #
 require "test_helper"
 
-class QuoteTest < ActiveSupport::TestCase
+class CompanyTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

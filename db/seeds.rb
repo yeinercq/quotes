@@ -14,3 +14,9 @@ for i in (1..5) do
 end
 
 puts "Quotes has been created"
+
+quote = Quote.first
+quote.line_item_dates.create!(date: Date.today)
+quote.line_item_dates.create!(date: Date.today + 5.days)
+
+puts "Dates has been created"

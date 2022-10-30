@@ -16,7 +16,41 @@ end
 puts "Quotes has been created"
 
 quote = Quote.first
-quote.line_item_dates.create!(date: Date.today)
-quote.line_item_dates.create!(date: Date.today + 5.days)
+l_1 = quote.line_item_dates.create(date: Date.today)
+l_2 = quote.line_item_dates.create(date: Date.today + 5.days)
 
 puts "Dates has been created"
+
+LineItem.create(
+  line_item_date: l_1,
+  name: "Meeting room",
+  description: "A cosy meeting room for 10 people",
+  quantity: 1,
+  unit_price: 1000
+)
+
+LineItem.create(
+  line_item_date: l_1,
+  name: "Meal tray",
+  description: "Our delicious meal tray",
+  quantity: 10,
+  unit_price: 25
+)
+
+LineItem.create(
+  line_item_date: l_2,
+  name: "Meeting room",
+  description: "A cosy meeting room for 10 people",
+  quantity: 1,
+  unit_price: 1000
+)
+
+LineItem.create(
+  line_item_date: l_2,
+  name: "Meal tray",
+  description: "Our delicious meal tray",
+  quantity: 10,
+  unit_price: 25
+)
+
+puts "Line Items has been created"

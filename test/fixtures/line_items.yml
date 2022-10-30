@@ -1,0 +1,27 @@
+# == Schema Information
+#
+# Table name: line_items
+#
+#  id                :bigint           not null, primary key
+#  line_item_date_id :bigint           not null
+#  name              :string           not null
+#  description       :text
+#  quantity          :integer          not null
+#  unit_price        :decimal(10, 2)   not null
+#  created_at        :datetime         not null
+#  updated_at        :datetime         not null
+#
+
+one:
+  line_item_date: one
+  name: MyString
+  description: MyText
+  quantity: 1
+  unit_price: 9.99
+
+two:
+  line_item_date: two
+  name: MyString
+  description: MyText
+  quantity: 1
+  unit_price: 9.99

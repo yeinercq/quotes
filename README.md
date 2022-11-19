@@ -1,4 +1,4 @@
-# Organizador
+# Quote editor
 
 This is a small project with Turbo Drive (turbo_frames and turbo_stream), you can save quotes, add dates and line items to manage prices.
 
@@ -24,4 +24,3 @@ This is a small project with Turbo Drive (turbo_frames and turbo_stream), you ca
 ### Add items to dates quotes
 
 ![add_item](https://user-images.githubusercontent.com/19921941/202863453-1813fbbf-86a2-41c2-a5b5-dd55b83dea04.gif)
-

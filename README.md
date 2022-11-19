@@ -1,16 +1,20 @@
 # Organizador
 
-This is a small project to understand the Turbo Rails behavior (turbo_frames and turbo_stream).
+This is a small project with Turbo Drive (turbo_frames and turbo_stream), you can save quotes, add dates and line items to manage prices.
 
-## Prerequisites
+## Technologies
 
-- Git
-- Ruby [3.1.2]
-- Rails [7.0.4]
+- Rails 7.0.4
+- Ruby 3.1.2
+- Bootstrap 5.0
 - Postgresql
+- Turbo Drive
+- CSS
 
-## Check out the repository
+## Functions
 
-```bash
-git@github.com:yeinercq/quotes.git
-```
+### Create and edit quotes
+
+### Create dates to quotes
+
+### Add items to dates quotes
